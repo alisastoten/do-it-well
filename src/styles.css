@@ -13,7 +13,6 @@ body {
     background-color: #100D19;
 }
 
-
 .custom-yellow-text {
     color: #FFFF81;
 }
@@ -46,4 +45,14 @@ body {
     color: #000000;
     transition: 0.3s ease;
     box-shadow: 0 0 10px rgba(255, 255, 129, 1);
+}
+
+.services-bg {
+    background: linear-gradient(to bottom, #100D19, rgba(255, 253, 125, 0.09) 100%);
+    box-shadow: 0 5px 4px rgba(255, 255, 129, 0.3);
+    border-bottom: 3px solid #ffff81;
+}
+
+.services-bg:hover{
+    box-shadow: 0 5px 20px rgba(255, 255, 129, 0.3);
 }
