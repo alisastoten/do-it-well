@@ -1,6 +1,6 @@
 
 <template>
-  <div class="min-h-screen bg-dark-900 text-white text-center">
+  <div class="min-h-screen text-white text-center">
     <div class="flex">
       <div class="w-3/12 h-screen-md custom-gradient m-3 py-5 rounded-2xl">
         <h1 class="text-4xl text-xl text-yellow-200 mb-2">{{ msg }}</h1>

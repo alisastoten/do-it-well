@@ -7,7 +7,7 @@ const routes: Array<RouteRecordRaw> = [
     path: '/',
     name: 'MainPage',
     component: MainPageVue,
-    props: { msg: "Turundus, veebimaterjal, reklaamid ühest kohast" },
+    props: { msg: "Tee oma äri veebis nähtavaks" },
   },
   {
     path: '/tehtud-tood',

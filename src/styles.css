@@ -8,3 +8,42 @@
 .custom-gradient {
     background: linear-gradient(180deg, #cfd30200 50%, rgb(248, 255, 154) 90%)
 }
+
+body {
+    background-color: #100D19;
+}
+
+
+.custom-yellow-text {
+    color: #FFFF81;
+}
+
+.custom-yellow-bg {
+    background: #FFFF81;
+}
+
+.border-yellow {
+    border-color: #FFFF81;
+}
+
+.my-line-height {
+    line-height: 4; /* Adjust this value as needed */
+}
+
+.button-y {
+    background-color: transparent;
+    border: 1px solid #FFFF81;
+    color: #FFFF81;
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+    box-shadow: 0 0 5px rgba(255, 255, 129, 0.4);
+}
+
+.button-y:hover {
+    background-color: #ffff81;
+    color: #000000;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 255, 129, 1);
+}

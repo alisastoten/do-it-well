@@ -1,8 +1,17 @@
 
 <template>
-  <div class="min-h-screen bg-dark-900">
-    <h1 class="text-4xl text-center pt-6 text-yellow-200">{{ msg }}</h1>
-
+  <div class="min-h-screen md:pt-40 text-white text-center">
+    <div class="m-10">
+      <h1 class="font-extrabold my-line-height lg:text-7xl md:text-lg">{{ msg }}</h1>
+      <p class="mt-8 lg:text-3xl my-line-height ">
+        Sinu ettevõte imago ühtsus nii sotsiaalmeedias, veebilehel, e-poes kui ka prinditud materjalil.
+      </p>
+    </div>
+    <div class="flex flex-row justify-center gap-8">
+      <button class="button-y">Teenused</button>
+      <button class="button-y">Tehtud tööd</button>
+    </div>
+      
   </div>
 </template>
 
