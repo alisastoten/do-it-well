@@ -8,8 +8,8 @@
       </p>
     </div>
     <div class="flex flex-row justify-center gap-8">
-      <button class="button-y">Teenused</button>
-      <button class="button-y">Tehtud tööd</button>
+      <a href="./teenused"><button class="button-y">Teenused</button></a>
+      <a href="./tehtud-tööd"><button class="button-y">Tehtud tööd</button></a>
     </div>
       
   </div>
