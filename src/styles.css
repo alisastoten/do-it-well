@@ -49,7 +49,7 @@ body {
 
 .services-bg {
     background: linear-gradient(to bottom, #100D19, rgba(255, 253, 125, 0.09) 100%);
-    box-shadow: 0 5px 4px rgba(255, 255, 129, 0.3);
+    box-shadow: 0 5px 0 rgba(255, 255, 129, 0.3);
     border-bottom: 3px solid #ffff81;
 }
 
