@@ -2,7 +2,7 @@
   <nav class="border-b-3 border-yellow">
     <div class="mx-auto max-w-10xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-18 items-center justify-between gap-7">
-        <img src="../img/logo.svg" alt="" class="h-12">
+        <img src="./img/logo.svg" alt="" class="h-12">
         <div
           class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
         >
