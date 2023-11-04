@@ -36,6 +36,17 @@
     </div>
   </nav>
   <router-view />
+
+  <div class="mx-auto max-w-10xl px-2 flex justify-center text-white my-20">
+    <div class="flex items-center justify-between gap-10 flex-col lg:flex-row">
+      <img src="./assets/logo.svg" alt="" class="h-12">
+      <div class="flex gap-13 flex-col items-center md:flex-row">
+        <p>info@doitwell.ee</p>
+        <p>+372 5823 1125</p>
+        <p>© Copyright 2023 Do IT Well</p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">

@@ -26,7 +26,6 @@ const routes: Array<RouteRecordRaw> = [
 
 const router = createRouter({
   history: createWebHistory(),
-  base: '/do-it-well/',
   routes,
 });
 
