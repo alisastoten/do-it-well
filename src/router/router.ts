@@ -8,7 +8,6 @@ const routes: Array<RouteRecordRaw> = [
     path: '/',
     name: 'MainPage',
     component: MainPageVue,
-    props: { msg: "Tee oma äri veebis nähtavaks" },
   },
   {
     path: '/teenused',

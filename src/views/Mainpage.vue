@@ -1,8 +1,7 @@
 <template>
-    <MainPage :msg="msg" />
+    <MainPage />
   </template>
   
   <script setup lang="ts">
   import MainPage from '../components/Mainpage.vue';
-  defineProps<{ msg: String }>();
   </script>

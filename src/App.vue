@@ -11,7 +11,7 @@
         </svg>
       </button>
       <div class="w-full md:block md:w-auto" id="navbar-default" :class="{ 'hidden': !mobileMenuOpen }">
-        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8">
+        <ul class="font-medium flex flex-col p-4 md:p-0 md:flex-row md:space-x-8">
           <router-link
             to="/"
             class="text-white rounded-md px-3 py-2 text-sm font-medium"
