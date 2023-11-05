@@ -63,3 +63,19 @@ body {
     box-shadow: 0 5px 30px rgba(255, 255, 129, 0.9);
     transition: box-shadow 0.3s ease;
 }
+
+
+::selection {
+  background-color: rgb(240, 240, 146);
+  color: black;
+}
+
+::-moz-selection {
+  background-color: rgb(240, 240, 146);
+  color: black
+}
+
+::-webkit-selection {
+  background-color: rgb(240, 240, 146);
+  color: black
+}
