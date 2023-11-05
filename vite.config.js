@@ -4,6 +4,7 @@ import WindiCSS from 'vite-plugin-windicss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/do-it-well/', // Set your desired base path here
   plugins: [vue(), WindiCSS()],
 })
 

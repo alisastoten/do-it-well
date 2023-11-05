@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.nav-shadow {
+    box-shadow: 0 0 20px rgb(255, 255, 130, 0.6);
+}
+
 .custom-gradient {
     background: linear-gradient(180deg, #cfd30200 50%, rgb(248, 255, 154) 90%)
 }

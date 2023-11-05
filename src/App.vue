@@ -1,5 +1,5 @@
 <template>
-  <nav class="border-b-3 border-yellow">
+  <nav class="border-b-3 border-yellow nav-shadow">
     <div class="mx-auto max-w-10xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-18 items-center justify-between gap-7">
         <img src="./assets/logo.svg" alt="" class="h-12">
