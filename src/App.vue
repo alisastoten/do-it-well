@@ -22,13 +22,13 @@
                 aria-current="page"
                 >Teenused</router-link
               >
-              <router-link
+              <!-- <router-link
                 to="/tehtud-tood"
                 class="text-white rounded-md px-3 py-2 text-sm font-medium"
                 active-class="custom-yellow-bg text-dark-900"
                 aria-current="page"
                 >Tehtud tööd</router-link
-              >
+              > -->
             </div>
           </div>
         </div>
