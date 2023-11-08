@@ -2,66 +2,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 #app {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html, body {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .nav-shadow {
-    box-shadow: 0 0 20px rgb(255, 255, 130, 0.6);
+  box-shadow: 0 0 20px rgb(255, 255, 130, 0.6);
 }
 
 .custom-gradient {
-    background: linear-gradient(180deg, #cfd30200 50%, rgb(248, 255, 154) 90%)
+  background: linear-gradient(180deg, #cfd30200 50%, rgb(248, 255, 154) 90%)
 }
 
 body {
-    background-color: #100D19;
+  background-color: #100D19;
 }
 
 .custom-yellow-text {
-    color: #FFFF81;
+  color: #FFFF81;
 }
 
 .custom-yellow-bg {
-    background: #FFFF81;
+  background: #FFFF81;
 }
 
 .border-yellow {
-    border-color: #FFFF81;
+  border-color: #FFFF81;
 }
 
 .button-y {
-    background-color: transparent;
-    border: 1px solid #FFFF81;
-    color: #FFFF81;
-    font-weight: bold;
-    border-radius: 40px;
-    font-size: 18px;
-    padding: 10px 25px 10px 25px;
-    box-shadow: 0 0 5px rgba(255, 255, 129, 0.4);
-    transition: all;
+  background-color: transparent;
+  border: 1px solid #FFFF81;
+  color: #FFFF81;
+  font-weight: bold;
+  border-radius: 40px;
+  font-size: 18px;
+  padding: 10px 25px 10px 25px;
+  box-shadow: 0 0 5px rgba(255, 255, 129, 0.4);
+  transition: all;
 }
 
 .button-y:hover {
-    background-color: #ffff81;
-    color: #000000;
-    transition: 0.3s ease;
-    box-shadow: 0 0 10px rgba(255, 255, 129, 1);
-    transition-duration: 150ms;
+  background-color: #ffff81;
+  color: #000000;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 129, 1);
+  transition-duration: 150ms;
 }
 
 .services-bg {
-    background: linear-gradient(to bottom, #100D19, rgba(255, 253, 125, 0.09) 100%);
-    box-shadow: 0 5px 0 rgba(255, 255, 129, 0.3);
-    border-bottom: 3px solid #ffff81;
+  background: linear-gradient(45deg, rgb(11, 26, 70), rgb(50, 52, 63));
+  background-size: 200% 200%;
+  animation: gradientAnimation 5s ease infinite;
+  box-shadow: 0 5px 0 rgba(255, 255, 129, 0.3);
+  border-bottom: 3px solid #ffff81;
+  transition: transform 0.3s ease-in-out;
 }
 
-.services-bg:hover{
-    box-shadow: 0 5px 30px rgba(255, 255, 129, 0.9);
-    transition: box-shadow 0.3s ease;
+@keyframes gradientAnimation {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.services-bg:hover {
+  transform: scale(1.05) translateY(-5px);
 }
 
 
