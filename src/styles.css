@@ -29,10 +29,6 @@ body {
     border-color: #FFFF81;
 }
 
-.my-line-height {
-    line-height: 4; /* Adjust this value as needed */
-}
-
 .button-y {
     background-color: transparent;
     border: 1px solid #FFFF81;
