@@ -62,4 +62,6 @@ const toggleMobileMenu = () => {
   mobileMenuOpen.value = !mobileMenuOpen.value;
 };
 
+
+
 </script>

@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 .nav-shadow {
     box-shadow: 0 0 20px rgb(255, 255, 130, 0.6);
 }
