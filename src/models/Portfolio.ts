@@ -1,7 +1,10 @@
+import hantelImage from '../assets/hantel.jpg';
+import veebipoedImage from '../assets/veebipoed.jpg';
+
 export const jobs = [
   {
     id: 1,
-    img: 'src/assets/hantel.jpg',
+    img: hantelImage,
     name: 'Hantel.ee',
     description: 
     [
@@ -13,7 +16,7 @@ export const jobs = [
   },
   {
     id: 2,
-    img: 'src/assets/veebipoed.jpg',
+    img: veebipoedImage,
     name: 'Veebipoed.ee',
     description: 
     [
@@ -26,7 +29,7 @@ export const jobs = [
   },
   {
     id: 3,
-    img: 'src/assets/veebipoed.jpg',
+    img: hantelImage,
     name: 'Bodycare.ee',
     description: 
     [
@@ -38,7 +41,7 @@ export const jobs = [
   },
   {
     id: 4,
-    img: 'src/assets/veebipoed.jpg',
+    img: hantelImage,
     name: 'ITÜK',
     description: 
     [

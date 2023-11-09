@@ -3,7 +3,7 @@ export const services = [
     name: 'Meta reklaam',
     description: 
     [
-      'Facebooki ja Instagrami reklaam', 
+      'Facebooki ja Instagrami reklaam.', 
       'Pilkupüüdev kujundus.', 
       'Läbimõeldud tekstid.', 
       'Sihtgrupi seadistus, mis aitab reklaamil jõuda Sinu kliendini.'
@@ -35,7 +35,7 @@ export const services = [
     [
       'Teeme konsultatsiooni.', 
       'Loome Sulle ühe logo.', 
-      'Teeme selle logoga sobiva bänneri erinevates surustes Facebooki, e-poe või oma kodulehe või muu kanali jaoks.', 
+      'Teeme selle logoga sobiva bänneri erinevates suurustes Facebooki, e-poe või oma kodulehe või muu kanali jaoks.', 
       'Saadame logo Sulle ning seda ka .ai faililaiendiga, milles pole kvaliteedi kadu - Sa saaksid seda edaspidi ka disaini või printimise eesmärgil kasutada.',
     ],
     price: '250 €',
@@ -44,8 +44,8 @@ export const services = [
     name: 'Turunduse audit',
     description: 
     [
-      'Sotsiaalmeedia kanalite audit', 
-      'E-poe / kodulehe audit',
+      'Sotsiaalmeedia kanalite audit.', 
+      'E-poe / kodulehe audit.',
       'Analüüs - mida jätkata samamoodi, mida muuta.'
     ],
     price: '75 €',
