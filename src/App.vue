@@ -14,21 +14,21 @@
         <ul class="font-medium flex flex-col p-4 md:p-0 md:flex-row md:space-x-8">
           <router-link
             to="/"
-            class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-yellow-100 hover:text-dark-900"
+            class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-800 hover:text-white"
             active-class="custom-yellow-bg text-dark-900"
             aria-current="page"
             >Avaleht</router-link
           >
           <router-link
             to="/teenused"
-            class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-yellow-100 hover:text-dark-900"
+            class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-800 hover:text-white"
             active-class="custom-yellow-bg text-dark-900"
             aria-current="page"
             >Teenused</router-link
           >
           <router-link
             to="/tehtud-tood"
-            class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-yellow-100 hover:text-dark-900"
+            class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-800 hover:text-white"
             active-class="custom-yellow-bg text-dark-900"
             aria-current="page"
             >Tehtud tööd</router-link

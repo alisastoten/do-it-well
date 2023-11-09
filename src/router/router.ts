@@ -2,6 +2,7 @@ import { RouteRecordRaw, createRouter, createWebHistory } from 'vue-router';
 import MainPageVue from '../views/Mainpage.vue'
 import PortfolioVue from '../views/Portfolio.vue'
 import ServicesVue from '../views/Services.vue'
+import PortfolioDetailsVue from '../views/PortfolioDetails.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -20,7 +21,12 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Tehtud tööd',
     component: PortfolioVue,
     props: { msg: 'Tehtud tööd' },
-  }
+  },
+  {
+    path: '/tehtud-tood/:jobId',
+    name: 'JobDetails',
+    component: PortfolioDetailsVue,
+  },
 ];
 
 const router = createRouter({
