@@ -30,12 +30,14 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(process.env.BASE_URL),
   routes,
 });
 
 router.beforeEach((to, from, next) => {
   window.scrollTo(0, 0);
+  const base = router.options.history.base;
+  (document as any).baseURI = base + (base.endsWith('/') ? '' : '/');
   next();
 });
 
