@@ -1,6 +1,6 @@
 import hantelPic from '../assets/hantel.jpg';
 import veebipoedPic from '../assets/veebipoed.jpg';
-import erplycommercePic from '../assets/ErplyCommerce.png';
+import erplycommercePic from '../assets/erplycommerce.png';
 import itukPic from '../assets/ituk.jpg';
 import proessencePic from '../assets/proessence.jpg';
 
