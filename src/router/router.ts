@@ -30,7 +30,7 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHistory('/do-it-well/'),
+  history: createWebHistory(),
   routes,
 });
 
