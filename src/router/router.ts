@@ -23,7 +23,7 @@ const routes: Array<RouteRecordRaw> = [
     props: { msg: 'Tehtud tööd' },
   },
   {
-    path: '/tehtud-tood/:jobId',
+    path: '/tehtud-tood/:jobFilename',
     name: 'JobDetails',
     component: PortfolioDetailsVue,
   },

@@ -14,7 +14,7 @@
           <ul class="list-disc">
             <li v-for="point in job.description" :key="point" class="text-left text-md mx-12 mb-3">{{ point }}</li>
           </ul>
-          <router-link :to="'/tehtud-tood/' + job.id" :key="job.button"><button class="button-y my-7 mx-9">{{ job.button }}</button></router-link>
+          <router-link :to="'/tehtud-tood/' + job.filename" :key="job.button"><button class="button-y my-7 mx-9">{{ job.button }}</button></router-link>
         </div>
       </div>
     </div>
@@ -29,6 +29,6 @@ defineProps<{ msg: String }>();
 import { useRoute } from 'vue-router';
 
 const route = useRoute();
-const jobId = route.params.jobId; 
+const jobFilename = route.params.jobFilename; 
 
 </script>
