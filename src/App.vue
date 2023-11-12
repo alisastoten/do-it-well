@@ -17,20 +17,23 @@
             class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-800 hover:text-white"
             active-class="custom-yellow-bg text-dark-900"
             aria-current="page"
+            @click.native="closeMobileMenu"
             >Avaleht</router-link
-          >
-          <router-link
+            >
+            <router-link
             to="/teenused"
             class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-800 hover:text-white"
             active-class="custom-yellow-bg text-dark-900"
             aria-current="page"
+            @click.native="closeMobileMenu"
             >Teenused</router-link
-          >
-          <router-link
+            >
+            <router-link
             to="/tehtud-tood"
             class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-800 hover:text-white"
             active-class="custom-yellow-bg text-dark-900"
             aria-current="page"
+            @click.native="closeMobileMenu"
             >Tehtud tööd</router-link
           >
         </ul>
@@ -60,6 +63,10 @@ const mobileMenuOpen = ref(false);
 
 const toggleMobileMenu = () => {
   mobileMenuOpen.value = !mobileMenuOpen.value;
+};
+
+const closeMobileMenu = () => {
+  mobileMenuOpen.value = false;
 };
 
 

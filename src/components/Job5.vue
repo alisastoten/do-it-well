@@ -6,21 +6,21 @@
       <h2 class="text-2xl sm:text-3xl font-semibold mt-10 mb-5">Reklaamid</h2>
       <p class="mb-5 text-xl">1. Karusell reklaam</p>
       <div class="grid grid-cols-1 md:grid-cols-5 gap-2 justify-items-center">
-        <img src="../assets/tehtud-tood/erplycommerce/carousel1-400.jpg" alt="" class="rounded-xl">
-        <img src="../assets/tehtud-tood/erplycommerce/carousel2-400.jpg" alt="" class="rounded-xl">
-        <img src="../assets/tehtud-tood/erplycommerce/carousel3-400.jpg" alt="" class="rounded-xl">
-        <img src="../assets/tehtud-tood/erplycommerce/carousel4-400.jpg" alt="" class="rounded-xl">
-        <img src="../assets/tehtud-tood/erplycommerce/carousel5-400.jpg" alt="" class="rounded-xl">
+        <img src="../assets/tehtud-tood/erplycommerce/carousel1-400.jpg" alt="" class="rounded-xl border-2 border-green-600">
+        <img src="../assets/tehtud-tood/erplycommerce/carousel2-400.jpg" alt="" class="rounded-xl border-2 border-green-600">
+        <img src="../assets/tehtud-tood/erplycommerce/carousel3-400.jpg" alt="" class="rounded-xl border-2 border-green-600">
+        <img src="../assets/tehtud-tood/erplycommerce/carousel4-400.jpg" alt="" class="rounded-xl border-2 border-green-600">
+        <img src="../assets/tehtud-tood/erplycommerce/carousel5-400.jpg" alt="" class="rounded-xl border-2 border-green-600">
       </div>
       <p class="mb-5 text-xl mt-10">2. Üksikpildi reklaam</p>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2 justify-items-center">
         <div>
           <p class="mb-5 mt-3">Arvutile - FB ja Instagram feed</p>
-          <img src="../assets/tehtud-tood/erplycommerce/reklaam-desktop-400.jpg" alt="" class="rounded-xl">
+          <img src="../assets/tehtud-tood/erplycommerce/reklaam-desktop-400.jpg" alt="" class="rounded-xl border-2 border-green-600">
         </div>
         <div>
           <p class="mb-5 mt-3">Telefonile - story, reels</p>
-          <img src="../assets/tehtud-tood/erplycommerce/reklaam-story-400.jpg" alt="" class="rounded-xl w-full sm:w-60">
+          <img src="../assets/tehtud-tood/erplycommerce/reklaam-story-400.jpg" alt="" class="rounded-xl w-full sm:w-60 border-2 border-green-600">
         </div>
       </div>
     </div>

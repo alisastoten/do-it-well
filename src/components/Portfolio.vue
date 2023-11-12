@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col items-center mt-20 text-white text-center">
-    <h1 class="font-extrabold my-line-height text-6xl">{{ msg }}</h1>
+    <h1 class="font-extrabold my-line-height text-5xl">{{ msg }}</h1>
     <div class="w-11/12 mt-15">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         <div v-for="job in jobs" :key="job.name" class="rounded rounded-4xl portfolio-bg">
