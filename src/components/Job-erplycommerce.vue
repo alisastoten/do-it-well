@@ -1,8 +1,8 @@
 <template>
-  <div class="w-6/8 mx-auto text-white mt-10 flex flex-col justify-center">
+  <div class="w-7/8 sm:w-6/8 mx-auto text-white mt-10 flex flex-col justify-center">
     <div class="flex flex-col">
       <h2 class="text-2xl sm:text-3xl font-semibold mt-4">Eesmärk</h2>
-      <p class="mt-4 leading-relaxed">Luua veebileht ja sarnase temaatikaga reklaamid.</p>
+      <p class="mt-4 leading-relaxed">Teha veebilehe kuvand Figmas. Teha WordPress leht Figmas tehtud kuvandi järgi (kasutuses oli Divi builder). Lõpuks luua ka sarnase temaatikaga reklaamid, et suunata potentsiaalseid kliente lehele.</p>
       <h2 class="text-2xl sm:text-3xl font-semibold mt-10 mb-5">Reklaamid</h2>
       <p class="mb-5 text-xl">1. Karussell reklaam</p>
       <div class="grid grid-cols-1 md:grid-cols-5 gap-2 justify-items-center">

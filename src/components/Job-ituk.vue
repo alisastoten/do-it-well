@@ -41,7 +41,7 @@
       <h4 class="my-6">Särk</h4>
       <img src="../assets/tehtud-tood/ituk/pk/sark.jpg" alt="" class="rounded-xl w-120">
 
-      <h3 class="text-2xl font-semibold mt-10 mb-5">Tudengibaar 2022</h3>
+      <h3 class="text-2xl font-semibold mt-10 mb-5">Üritus: Tudengibaar 2022</h3>
       <h4>Facebooki ürituse pilt</h4>
       <img src="../assets/tehtud-tood/ituk/tb-banner.jpg" alt="" class="rounded-xl mt-6 w-150">
       <h4 class="my-6">Menüüd</h4>
@@ -50,7 +50,7 @@
         <img src="../assets/tehtud-tood/ituk/menuu2.jpg" alt="" class="rounded-xl">
       </div>
 
-      <h3 class="text-2xl font-semibold mt-10 mb-5">IT-ametite päev</h3>
+      <h3 class="text-2xl font-semibold mt-10 mb-5">Üritus: IT-ametite päev</h3>
       <h4>Facebooki ürituse pilt</h4>
       <img src="../assets/tehtud-tood/ituk/itap/itap-cover.jpg" alt="" class="rounded-xl mt-6 w-150">
       <h4 class="my-6">Ürituse ajakava postitusena</h4>

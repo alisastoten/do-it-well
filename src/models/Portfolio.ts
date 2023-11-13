@@ -40,7 +40,7 @@ export const jobs = [
       'Reklaam', 'Brändikuvand', 'Blogi', 'Logo', 'SEO'
     ],
     button: 'Vaata lähemalt',
-    desciptionLong: 'Veebipoed.ee loob e-poode ja keerukamaid veebilahendusi. Seadistasime neile reklaame, et nad jõuaksid oma õige kliendini.',
+    desciptionLong: 'Veebipoed.ee loob e-poode ja keerukamaid veebilahendusi. Seadistasime neile relaamid, et nad jõuaksid oma õige kliendini.',
   },
   {
     id: 3,
@@ -58,7 +58,7 @@ export const jobs = [
       'Kodulehe disain', 'Arendus', 'Logo', 'SEO'
     ],
     button: 'Uuri ErplyCommerce lehe loomise kohta',
-    desciptionLong: 'ErplyCommerce pakub kiiret lahendust neile, kellel on olemas Erply, aga pole veel e-poodi.',
+    desciptionLong: 'ErplyCommerce pakub kiiret lahendust neile, kellel on olemas Erply, aga pole veel olemas e-poodi. Peamine sõnum on see, et kui Erply on olemas, saab selle jaoks luua üks e-pood ja ühendada see Erplyga.',
   },  
   {
     id: 4,
@@ -76,7 +76,7 @@ export const jobs = [
       'Turunduskonsultatsioonid'
     ],
     button: 'Vaata Hantel.ee reklaame',
-    desciptionLong: 'Hantel.ee müüb jõusaali- ja kardioseadmeid, nii uusi kui ka kasutatud. Tegime reklaame Eesti ja Soome jaoks, et suurendada müüki.',
+    desciptionLong: 'Hantel.ee müüb jõusaali- ja kardioseadmeid, nii uusi kui ka kasutatud. Tegime reklaame Eesti ja Soome jaoks, et suurendada ettevõtte müüki.',
   },
   {
     id: 5,
@@ -93,6 +93,6 @@ export const jobs = [
       'Reklaam', 'Brändikuvand', 'Logo', 'SEO'
     ],
     button: 'Vaata lähemalt',
-    desciptionLong: 'Bodycare.ee müüb kosmeetikatooteid, mis on päris Saksamaalt ja mida keegi Eestis väga ei teadnud. Tegime neile valmis reklaamid, korrastasime sotsiaalmeediat ja e-poe kuvandit.',
+    desciptionLong: 'Bodycare.ee on Saksa kosmeetika maaletooja. Seda kosmeetikat Eestis keegi väga ei teadnud. Tegime neile valmis reklaamid, korrastasime sotsiaalmeediat ja e-poe kuvandit.',
   }
 ];
