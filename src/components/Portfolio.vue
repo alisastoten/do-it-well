@@ -3,12 +3,14 @@
     <h1 class="font-extrabold my-line-height text-5xl">{{ msg }}</h1>
     <div class="w-11/12 mt-15">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-        <div v-for="job in jobs" :key="job.name" class="rounded rounded-4xl portfolio-bg">
-          <img :src="job.img" class="portfolio-pic rounded rounded-t-4xl">
-          <h2 class="p-4 mb-5 mt-2 text-xl text-white font-extrabold">{{ job.name }}</h2>
+        <div v-for="job in jobs" :key="job.name" class="rounded rounded-3xl border-2 border-gray-300 portfolio-bg">
+          <div class="flex flex-col items-center">
+            <img :src="job.img" class="rounded rounded-2xl w-19/20 mt-3 border-1 border-gray-300">
+            <h2 class="p-4 mb-5 mt-2 text-xl text-white font-extrabold">{{ job.name }}</h2>
+          </div>
           <div class="flex flex-wrap justify-center mb-5 mx-3">
             <div v-for="topic in job.topic" :key="topic" class="mx-2 mb-4">
-              <p class="px-3 py-2 border-2 border-warm-gray-200 rounded-2xl inline-block">{{ topic }}</p>
+              <p class="px-3 py-2 border-2 border-gray-400 rounded-2xl inline-block">{{ topic }}</p>
             </div>
           </div>
           <ul class="list-disc">

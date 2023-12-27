@@ -80,14 +80,7 @@ body {
 }
 
 .portfolio-bg {
-  box-shadow: 0 5px 0px rgba(255, 255, 129, 0.3);
-  border-top: 2px solid #ffff81;
-  border-bottom: 2px solid #ffff81;
-  background: linear-gradient(45deg, rgb(1, 1, 22) 20%, rgba(207, 198, 70, 0.055) 100%);
-}
-
-.portfolio-pic {
-  border-bottom: 3px solid #ffff81;
+  background-color: #1d1924;
 }
 
 
