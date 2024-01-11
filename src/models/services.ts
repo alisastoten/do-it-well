@@ -11,23 +11,14 @@ export const services = [
     price: '150 €',
   },
   {
-    name: 'SEO ehk kodulehe optimeerimine',
-    description: [
-      'SEO analüüs e-poele või kodulehele.', 
-      'Hinnang - mida on olulisem parandada kohe, mida võib parandada hiljem.', 
-      'Pakume välja, kui kiiresti ja mida saaksime ise parandada.'
-    ],
-    price: '75 €',
-  },
-  {
     name: 'Logo',
     description: 
     [
       'Logo loomine vastavalt Sinu visioonile.', 
-      'Üks variant - 70€ / kolm varianti 140 €.', 
+      'Üks variant - 50€ / kolm varianti 120 €.', 
       'Kõik variandid jäävad Sulle ning saadame ka .ai faili, milles pole kvaliteedi kadu.',
     ],
-    price: '140 €',
+    price: '50 €',
   },
   {
     name: 'Logo + bännerid',
@@ -36,9 +27,18 @@ export const services = [
       'Teeme konsultatsiooni.', 
       'Loome Sulle ühe logo.', 
       'Teeme selle logoga sobiva bänneri erinevates suurustes Facebooki, e-poe või oma kodulehe või muu kanali jaoks.', 
-      'Saadame logo Sulle ning seda ka .ai faililaiendiga, milles pole kvaliteedi kadu - Sa saaksid seda edaspidi ka disaini või printimise eesmärgil kasutada.',
+      'Saadame logo Sulle ning seda ka .ai faililaiendiga, milles pole kvaliteedi kadu.',
     ],
-    price: '250 €',
+    price: '150 €',
+  },
+  {
+    name: 'SEO optimeerimine',
+    description: [
+      'SEO analüüs e-poele või kodulehele.', 
+      'Hinnang - mida on olulisem parandada kohe, mida võib parandada hiljem.', 
+      'Pakume välja, kui kiiresti ja mida saaksime ise parandada.'
+    ],
+    price: '50 €',
   },
   {
     name: 'Turunduse audit',
@@ -50,4 +50,14 @@ export const services = [
     ],
     price: '75 €',
   },
+  {
+    name: 'Kodulehe disain',
+    description: 
+    [
+      'Figmas kodulehe disaini loomine', 
+      'Arvestame nii arvuti- kui ka mobiilivaatega',
+      'Koduleht +2 sisulehte'
+    ],
+    price: '140 €',
+  }
 ];
