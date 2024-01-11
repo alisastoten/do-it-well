@@ -98,3 +98,20 @@ body {
   background-color: rgb(240, 240, 146);
   color: black
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #414141;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffff81;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(250, 250, 187);
+}
+
