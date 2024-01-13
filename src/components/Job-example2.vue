@@ -14,7 +14,6 @@
         <img src="../assets/tehtud-tood/examplejobs/forwardsym.png" alt="" class="rounded-xl">
         <img src="../assets/tehtud-tood/examplejobs/forwardsym_1.png" alt="" class="rounded-xl">
         <img src="../assets/tehtud-tood/examplejobs/forwardsym_2.png" alt="" class="rounded-xl">
-        <img src="../assets/tehtud-tood/examplejobs/menuu2.jpg" alt="" class="rounded-xl">
       </div>
     </div>
   </div>
