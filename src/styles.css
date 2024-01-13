@@ -9,6 +9,8 @@ html, body {
   scroll-behavior: smooth;
 }
 
+
+
 .nav-shadow {
   box-shadow: 0 0 20px rgb(255, 255, 130, 0.6);
 }
@@ -31,6 +33,12 @@ body {
 
 .border-yellow {
   border-color: #FFFF81;
+}
+
+.nav-button:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 2px 2px rgb(255, 255, 129);
+  transition-duration: 150ms;
 }
 
 .button-y {

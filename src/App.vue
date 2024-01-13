@@ -14,7 +14,7 @@
         <ul class="font-medium flex flex-col p-4 md:p-0 md:flex-row md:space-x-8">
           <router-link
             to="/"
-            class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-500 hover:text-white"
+            class="nav-button text-white rounded-md px-3 py-2 text-md font-medium"
             active-class="custom-yellow-bg text-dark-900"
             aria-current="page"
             @click.native="closeMobileMenu"
@@ -22,7 +22,7 @@
             >
             <router-link
             to="/teenused"
-            class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-500 hover:text-white"
+            class="nav-button text-white rounded-md px-3 py-2 text-md font-medium"
             active-class="custom-yellow-bg text-dark-900"
             aria-current="page"
             @click.native="closeMobileMenu"
@@ -30,7 +30,7 @@
             >
             <router-link
             to="/tehtud-tood"
-            class="text-white rounded-md px-3 py-2 text-sm font-medium hover:bg-gray-500 hover:text-white"
+            class="nav-button text-white rounded-md px-3 py-2 text-md font-medium"
             active-class="custom-yellow-bg text-dark-900"
             aria-current="page"
             @click.native="closeMobileMenu"
