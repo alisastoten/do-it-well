@@ -3,6 +3,9 @@ import veebipoedPic from '../assets/veebipoed.jpg';
 import erplycommercePic from '../assets/erplycommerce.png';
 import itukPic from '../assets/ituk.jpg';
 import proessencePic from '../assets/proessence.jpg';
+import arneisPic from '../assets/arneis.jpg';
+import example1Pic from '../assets/motorspec.png';
+import example2Pic from '../assets/forward-main.png';
 
 export const jobs = [
   {
@@ -59,24 +62,24 @@ export const jobs = [
     ],
     button: 'Uuri ErplyCommerce lehe loomise kohta',
     desciptionLong: 'ErplyCommerce pakub kiiret lahendust neile, kellel on olemas Erply, aga pole veel olemas e-poodi. Peamine sõnum on see, et kui Erply on olemas, saab selle jaoks luua üks e-pood ja ühendada see Erplyga.',
-  },  
+  }, 
   {
     id: 4,
-    img: hantelPic,
-    filename: "hantel",
-    name: 'Hantel.ee',
+    img: arneisPic,
+    filename: "arneis",
+    name: 'Arneis',
     description: 
     [
-      'Meta reklaam', 
-      'Muud disaini tööd'
+      'Logo ja visiitkaart vastavalt kliendi visioonile',  
+      'Bännerid sotsiaalmeedia kanalitesse',
+      'Kleepsu disain kontori klaasukse peale' 
     ],
     topic: 
     [
-      'Reklaam',
-      'Turunduskonsultatsioonid'
+      'Brändikuvand', 'Logo', 'Visiitkaart'
     ],
-    button: 'Vaata Hantel.ee reklaame',
-    desciptionLong: 'Hantel.ee müüb jõusaali- ja kardioseadmeid, nii uusi kui ka kasutatud. Tegime reklaame Eesti ja Soome jaoks, et suurendada ettevõtte müüki.',
+    button: 'Vaata logo',
+    desciptionLong: 'Arneis pakub iluteenuseid. Selleks tuli luua logo ja sotisaalmeedia bännerid, millele vaadates saaks kohe aru, mis teenuseid pakutakse.',
   },
   {
     id: 5,
@@ -94,5 +97,56 @@ export const jobs = [
     ],
     button: 'Vaata lähemalt',
     desciptionLong: 'Bodycare.ee on Saksa kosmeetika maaletooja. Seda kosmeetikat Eestis keegi väga ei teadnud. Tegime neile valmis reklaamid, korrastasime sotsiaalmeediat ja e-poe kuvandit.',
-  }
+  },
+  {
+    id: 6,
+    img: example2Pic,
+    filename: "example2",
+    name: 'Näidistöö: Forward',
+    description: 
+    [
+      'Minimalistliku logo loomine',
+    ],
+    topic: 
+    [
+      'Logo', 
+    ],
+    button: 'Vaata näidistööd',
+    desciptionLong: 'Tegu on näidistööga, mitte kliendi tellimusega.',
+  },
+  {
+    id: 7,
+    img: example1Pic,
+    filename: "example1",
+    name: 'Näidistöö: MotorSpec',
+    description: 
+    [
+      'Minimalistliku logo loomine',
+    ],
+    topic: 
+    [
+      'Logo', 
+    ],
+    button: 'Vaata näidistööd',
+    desciptionLong: 'Tegu on näidistööga, mitte kliendi tellimusega.',
+  },
+  {
+    id: 8,
+    img: hantelPic,
+    filename: "hantel",
+    name: 'Hantel.ee',
+    description: 
+    [
+      'Meta reklaam', 
+      'Muud disaini tööd'
+    ],
+    topic: 
+    [
+      'Reklaam',
+      'Turunduskonsultatsioonid'
+    ],
+    button: 'Vaata Hantel.ee reklaame',
+    desciptionLong: 'Hantel.ee müüb jõusaali- ja kardioseadmeid, nii uusi kui ka kasutatud. Tegime reklaame Eesti ja Soome jaoks, et suurendada ettevõtte müüki.',
+  },
+
 ];
