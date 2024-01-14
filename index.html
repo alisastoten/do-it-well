@@ -21,12 +21,43 @@
     content="Logo tegemine, veebidisaini loomine, veebilehe parandus, sotisaalmeedia - Aitame su äri kasvama panna!" />
 
   <title>Turunduse ja disaini lahendused | Do It Well</title>
-  <script type="module" crossorigin src="/assets/index-62c3f4cf.js"></script>
-  <link rel="stylesheet" href="/assets/index-d9c51094.css">
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v18.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <script type="module" crossorigin src="/assets/index-904e2e7c.js"></script>
+  <link rel="stylesheet" href="/assets/index-e749fc13.css">
 </head>
 
 <body>
   <div id="app"></div>
+
+  <!-- Messenger Chat plugin Code -->
+  <div id="fb-root"></div>
+  <!-- Your Chat plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "122469534280084");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
   
 </body>
 
