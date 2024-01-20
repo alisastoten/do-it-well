@@ -59,35 +59,18 @@ body {
   transition-duration: 150ms;
 }
 
-.services-bg {
-  background: linear-gradient(45deg, rgb(11, 26, 70), rgb(50, 52, 63));
-  background-size: 200% 200%;
-  animation: gradientAnimation 5s ease infinite;
-  box-shadow: 0 5px 0 rgba(255, 255, 129, 0.3);
-  border-bottom: 3px solid #ffff81;
+.services-bg, .jobs-bg {
+  box-shadow: 0 5px 13px rgba(221, 221, 221, 0.129);
+  border: 1px solid #e7e7e720;
   transition: transform 0.3s ease-in-out;
+  background-color: #15173535;
 }
 
-@keyframes gradientAnimation {
-  0% {
-      background-position: 0% 50%;
-  }
-  50% {
-      background-position: 100% 50%;
-  }
-  100% {
-      background-position: 0% 50%;
-  }
+.services-bg:hover, .jobs-bg:hover {
+  transform: scale(1.03) translateY(-10px);
+
 }
 
-
-.services-bg:hover {
-  transform: scale(1.05) translateY(-5px);
-}
-
-.portfolio-bg {
-  background-color: #1d1924;
-}
 
 
 ::selection {
