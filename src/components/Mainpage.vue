@@ -17,6 +17,7 @@
         <div class="w-full lg:w-1/2 text-left flex flex-col px-10 pb-10 lg:p-35">
           <h2 class="text-3xl lg:text-5xl font-bold mb-4 leading-relaxed lg:leading-relaxed">Logod, bännerid ja veebimaterjal ettevõttele</h2>
           <p class="leading-relaxed text-xl">Loome Sinu ettevõtte <span class="custom-yellow-text">sotsiaalmeedia kontodele</span> ja <span class="custom-yellow-text">kodulehele</span> veebimaterjali. Loome logo ja bännerid Sinu kampaaniate, toodete või teenuste jaoks.</p>
+          <router-link to="/teenused"><button class="button-y mt-5">Vaata hinnakirja</button></router-link>
         </div>
         <div class="w-5/6 lg:w-1/2 lg:p-10 flex justify-center">
           <img src="../assets/skill1.jpg" alt="" class="w-140 rounded rounded-3xl">
@@ -26,12 +27,15 @@
         <div class="w-full lg:w-1/2 text-left flex flex-col px-10 pb-10 lg:p-35">
           <h2 class="text-3xl lg:text-5xl font-bold mb-4 leading-relaxed lg:leading-relaxed">Turundus & Meta reklaamid</h2>
           <p class="leading-relaxed text-xl">Teeme Sinu ettevõttele pilkupüüdva <span class="custom-yellow-text">digireklaami</span> ja seadistame reklaami <span class="custom-yellow-text">vastavalt sihtgrupile.</span> Teeme konsultatsiooni reklaami eelarve osas.</p>
+          <router-link to="/tehtud-tood"><button class="button-y mt-5">Vaata tehtud reklaame</button></router-link>
         </div>
         <div class="w-5/6 lg:w-1/2 lg:p-10 flex justify-center">
           <img src="../assets/skill2.jpg" alt="" class="w-140 rounded rounded-3xl">
         </div>
       </div>
     </div>
+
+    
       
   </div>
 </template>

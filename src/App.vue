@@ -2,8 +2,9 @@
   <nav class="border-b-3 border-yellow nav-shadow">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#" class="flex items-center">
-        <img src="./assets/logo.svg" alt="do it well OÜ logo" class="h-14">
+        <img src="./assets/logo.svg" alt="do it well OÜ logo" class="h-12">
       </a>
+      
       <button @click="toggleMobileMenu" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-yellow-100 rounded-lg md:hidden hover:bg-dark-200" aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -11,7 +12,7 @@
         </svg>
       </button>
       <div class="w-full md:block md:w-auto" id="navbar-default" :class="{ 'hidden': !mobileMenuOpen }">
-        <ul class="font-medium flex flex-col p-4 md:p-0 md:flex-row md:space-x-8">
+        <ul class="font-medium flex flex-col p-4 md:p-0 md:flex-row md:space-x-3">
           <router-link
             to="/"
             class="nav-button text-white rounded-md px-3 py-2 text-md font-medium"
@@ -49,7 +50,7 @@
       <div class="flex gap-4 md:gap-13 flex-col items-center md:flex-row">
         <p>info@doitwell.ee</p>
         <p>+372 5823 1125</p>
-        <p>© Copyright 2023 Do IT Well</p>
+        <p>© Copyright 2024 Do IT Well OÜ</p>
       </div>
     </div>
   </div>
