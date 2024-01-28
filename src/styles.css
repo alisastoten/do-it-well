@@ -68,11 +68,9 @@ body {
 
 .services-bg:hover, .jobs-bg:hover {
   transform: scale(1.03) translateY(-10px);
-
 }
 
-
-
+/* selectors */
 ::selection {
   background-color: rgb(240, 240, 146);
   color: black;
@@ -88,6 +86,7 @@ body {
   color: black
 }
 
+/* scrollbar */
 ::-webkit-scrollbar {
   width: 12px;
 }
