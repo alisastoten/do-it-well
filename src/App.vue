@@ -2,7 +2,7 @@
   <nav class="border-b-3 border-yellow nav-shadow">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#" class="flex items-center">
-        <img src="./assets/logo.svg" alt="do it well OÜ logo" class="h-12">
+        <img src="./assets/logo-doitwell.png" alt="do it well OÜ logo" class="h-10">
       </a>
       
       <button @click="toggleMobileMenu" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-yellow-100 rounded-lg md:hidden hover:bg-dark-200" aria-controls="navbar-default" aria-expanded="false">
@@ -46,7 +46,7 @@
   
   <div class="mx-auto max-w-10xl px-2 flex justify-center text-white mt-20 mb-10">
     <div class="flex items-center justify-between gap-10 flex-col lg:flex-row">
-      <img src="./assets/logo.svg" alt="" class="h-12">
+      <img src="./assets/logo-doitwell.png" alt="" class="h-10">
       <div class="flex gap-4 md:gap-13 flex-col items-center md:flex-row">
         <p>info@doitwell.ee</p>
         <p>+372 5823 1125</p>

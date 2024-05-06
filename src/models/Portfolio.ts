@@ -93,7 +93,7 @@ export const jobs = [
     ],
     topic: 
     [
-      'Reklaam', 'Brändikuvand', 'Logo', 'SEO'
+      'WooCommerce E-pood', 'Reklaam', 'Brändikuvand', 'Logo', 'SEO'
     ],
     button: 'Vaata lähemalt',
     desciptionLong: 'Bodycare.ee on Saksa kosmeetika maaletooja. Seda kosmeetikat Eestis keegi väga ei teadnud. Tegime neile valmis reklaamid, korrastasime sotsiaalmeediat ja e-poe kuvandit.',
