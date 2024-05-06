@@ -10,6 +10,23 @@ import example2Pic from '../assets/forward-main.png';
 export const jobs = [
   {
     id: 1,
+    img: proessencePic,
+    filename: "proessence",
+    name: 'Bodycare.ee',
+    description: 
+    [
+      'Meta reklaam',  
+      'Sotsiaalmeedia postitused', 
+    ],
+    topic: 
+    [
+      'WooCommerce E-pood', 'Reklaam', 'Brändikuvand', 'Logo', 'SEO'
+    ],
+    button: 'Vaata lähemalt',
+    desciptionLong: 'Bodycare.ee on Saksa kosmeetika maaletooja. Seda kosmeetikat Eestis keegi väga ei teadnud. Tegime neile valmis reklaamid, korrastasime sotsiaalmeediat ja e-poe kuvandit.',
+  },
+  {
+    id: 2,
     img: itukPic,
     filename: "ituk",
     name: 'ITÜK',
@@ -27,7 +44,7 @@ export const jobs = [
     desciptionLong: 'ITÜK on TalTechi IT-teaduskonna üliõpilaskogu. Abistasime neid ürituste kuvandi loomisel. Mida efektsem disain, seda rohkem tuleb inimesi ka kohale.',
   },
   {
-    id: 2,
+    id: 3,
     img: veebipoedPic,
     filename: "veebipoed",
     name: 'Veebipoed.ee',
@@ -46,7 +63,7 @@ export const jobs = [
     desciptionLong: 'Veebipoed.ee loob e-poode ja keerukamaid veebilahendusi. Seadistasime neile relaamid, et nad jõuaksid oma õige kliendini.',
   },
   {
-    id: 3,
+    id: 4,
     img: erplycommercePic,
     filename: "erplycommerce",
     name: 'Erplycommerce.ee',
@@ -64,7 +81,7 @@ export const jobs = [
     desciptionLong: 'ErplyCommerce pakub kiiret lahendust neile, kellel on olemas Erply, aga pole veel olemas e-poodi. Peamine sõnum on see, et kui Erply on olemas, saab selle jaoks luua üks e-pood ja ühendada see Erplyga.',
   }, 
   {
-    id: 4,
+    id: 5,
     img: arneisPic,
     filename: "arneis",
     name: 'Arneis',
@@ -82,56 +99,7 @@ export const jobs = [
     desciptionLong: 'Arneis pakub iluteenuseid. Selleks tuli luua logo ja sotisaalmeedia bännerid, millele vaadates saaks kohe aru, mis teenuseid pakutakse.',
   },
   {
-    id: 5,
-    img: proessencePic,
-    filename: "proessence",
-    name: 'Bodycare.ee',
-    description: 
-    [
-      'Meta reklaam',  
-      'Sotsiaalmeedia postitused', 
-    ],
-    topic: 
-    [
-      'WooCommerce E-pood', 'Reklaam', 'Brändikuvand', 'Logo', 'SEO'
-    ],
-    button: 'Vaata lähemalt',
-    desciptionLong: 'Bodycare.ee on Saksa kosmeetika maaletooja. Seda kosmeetikat Eestis keegi väga ei teadnud. Tegime neile valmis reklaamid, korrastasime sotsiaalmeediat ja e-poe kuvandit.',
-  },
-  {
     id: 6,
-    img: example2Pic,
-    filename: "example2",
-    name: 'Näidistöö: Forward',
-    description: 
-    [
-      'Minimalistliku logo loomine',
-    ],
-    topic: 
-    [
-      'Logo', 
-    ],
-    button: 'Vaata näidistööd',
-    desciptionLong: 'Tegu on näidistööga, mitte kliendi tellimusega.',
-  },
-  {
-    id: 7,
-    img: example1Pic,
-    filename: "example1",
-    name: 'Näidistöö: MotorSpec',
-    description: 
-    [
-      'Minimalistliku logo loomine',
-    ],
-    topic: 
-    [
-      'Logo', 
-    ],
-    button: 'Vaata näidistööd',
-    desciptionLong: 'Tegu on näidistööga, mitte kliendi tellimusega.',
-  },
-  {
-    id: 8,
     img: hantelPic,
     filename: "hantel",
     name: 'Hantel.ee',
@@ -148,5 +116,4 @@ export const jobs = [
     button: 'Vaata Hantel.ee reklaame',
     desciptionLong: 'Hantel.ee müüb jõusaali- ja kardioseadmeid, nii uusi kui ka kasutatud. Tegime reklaame Eesti ja Soome jaoks, et suurendada ettevõtte müüki.',
   },
-
 ];
